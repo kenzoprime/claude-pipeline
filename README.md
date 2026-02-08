@@ -4,6 +4,8 @@ This is a complete `.claude/` folder you can drop into any project. It gives Cla
 
 > **Warning:** The orchestration scripts in this pipeline use Claude's `--dangerously-skip-permissions` flag. That means Claude runs without permission prompts during automated workflows. The pipeline also interacts with your GitHub repo autonomously -- creating branches, opening PRs, and posting comments. You should only use this in a safe, sandboxed environment -- not on a machine with access to production systems or sensitive data. Review the scripts before running them, and make sure you're comfortable with what they do. If either of these behaviors isn't what you want, ask Claude to adjust the pipeline to match your preferred workflow.
 
+> **Important:** This repo is a template, not a project with active development issues. Do not submit issues or PRs here as part of your automated workflows. After copying the `.claude/` folder into your own project, all automation (issue handling, PR creation, branch management) should target **your** project's repository. If your pipeline is creating issues or PRs against `aaddrick/claude-pipeline`, something is misconfigured. Issues and PRs opened here by automation will be closed without review.
+
 ## Quick Start
 
 Get it running in three steps:
