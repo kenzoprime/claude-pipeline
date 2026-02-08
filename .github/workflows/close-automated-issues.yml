@@ -1,0 +1,22 @@
+name: Close automated issues
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  close-if-automated:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Check for automation marker and close
+        if: contains(github.event.issue.body, 'Posted by `implement-issue-orchestrator`')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          ISSUE_NODE_ID: ${{ github.event.issue.node_id }}
+        run: |
+          gh issue close "$ISSUE_URL" --comment "This issue was automatically created by a misconfigured pipeline. This repo is a template — automation should target your own project's repository, not this one. See the README for setup instructions."
+          gh issue lock "$ISSUE_URL" --reason "spam"
+          gh api graphql -f query='mutation { deleteIssue(input: { issueId: "'"$ISSUE_NODE_ID"'" }) { clientMutationId } }'
